@@ -1,0 +1,19 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "randy's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://randyyuan2017:foliaged1918@github.com/randyyuan2017/personal.git"
+  },
+  "author": "Randy Yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randyyuan2017/personal/issues"
+  },
+  "homepage": "https://github.com/randyyuan2017/personal#readme"
+}
