@@ -4,8 +4,6 @@ body {
 
 .header {
     position: fixed;
-    z-index: -1000;
-    filter: brightness(50%);
     left: 50%;
     width: 100%;
     transform: translate(-50%, 0);
@@ -13,6 +11,8 @@ body {
 }
 
 #background {
+    z-index: -1000;
+    filter: brightness(50%);
     width: 100%;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .white {
-    color: white;
+    color: #eee;
 }
 
 .name {
