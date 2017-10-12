@@ -1,7 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const BUILD_DIR = path.resolve(__dirname, './static/js');
-const APP_DIR = path.resolve(__dirname, './src');
+const APP_DIR = path.resolve(__dirname, './src/js');
 
 module.exports = () => {
     "use strict";
