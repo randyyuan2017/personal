@@ -1,3 +1,58 @@
-.test{
-    color: red;
+body {
+    font-size: 15px;
+}
+
+.header {
+    position: fixed;
+    z-index: -1000;
+    filter: brightness(50%);
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+    background-size: cover;
+}
+
+#background {
+    width: 100%;
+}
+
+.clear-margin {
+    margin: 0;
+}
+
+.roboto {
+    font-family: Roboto, Helvetica;
+    font-weight: 100;
+}
+
+.white {
+    color: white;
+}
+
+.name {
+    font-size: 5rem;
+    position: absolute;
+}
+
+.first-name {
+    top: 6rem;
+    right: 50%;
+
+}
+
+.last-name {
+    top: 14.5rem;
+    left: 50%;
+}
+
+@media (max-width: 600px) {
+    .header {
+        width: auto;
+        height: 20rem;
+    }
+
+    #background {
+        width: auto;
+        height: 100%;
+    }
 }

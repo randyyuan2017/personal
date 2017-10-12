@@ -1,3 +1,3 @@
-import '../css/style.css';
+require('normalize.css');
 
-// alert("hey");
+import '../css/style.css';
