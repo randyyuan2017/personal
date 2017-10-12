@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/randyyuan2017/personal/issues"
   },
-  "homepage": "https://github.com/randyyuan2017/personal#readme"
+  "homepage": "https://github.com/randyyuan2017/personal#readme",
+  "devDependencies": {
+    "webpack": "^3.7.1"
+  }
 }
