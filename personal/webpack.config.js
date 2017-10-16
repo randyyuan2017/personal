@@ -9,11 +9,12 @@ module.exports = () => {
 
     return {
         entry: {
+            libraries: [path.join(JS_DIR, 'jquery.js'), path.join(JS_DIR, 'foundation.min.js')],
             index: path.join(JS_DIR, 'index.js'),
         },
         output: {
             path: BUILD_DIR,
-            filename: 'bundle.js',
+            filename: '[name].js',
         },
         resolve: {
             extensions: ['.js', '.css', '.scss']
