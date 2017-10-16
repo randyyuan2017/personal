@@ -9,7 +9,7 @@ module.exports = () => {
 
     return {
         entry: {
-            libraries: [path.join(JS_DIR, 'jquery.js'), path.join(JS_DIR, 'foundation.min.js')],
+            // libraries: [path.join(JS_DIR, 'jquery.js')],
             index: path.join(JS_DIR, 'index.js'),
         },
         output: {
