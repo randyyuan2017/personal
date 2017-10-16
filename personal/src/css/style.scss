@@ -21,7 +21,7 @@ body {
 }
 
 .roboto {
-    font-family: Roboto, Helvetica;
+    font-family: Geo Sans Light, Helvetica;
     font-weight: 100;
 }
 
@@ -29,20 +29,17 @@ body {
     color: #eee;
 }
 
+#navigation-bar{
+    position: absolute;
+    top: 2rem;
+}
+
 .name {
     font-size: 5rem;
     position: absolute;
-}
-
-.first-name {
-    top: 6rem;
-    right: 50%;
-
-}
-
-.last-name {
-    top: 14.5rem;
+    top: 13rem;
     left: 50%;
+    transform: translate(-50%, 0);
 }
 
 @media (max-width: 600px) {

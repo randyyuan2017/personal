@@ -519,15 +519,10 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 /* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_style_css__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_style_css__);
 __webpack_require__(3);
-
-
+__webpack_require__(6);
 
 
 /***/ }),
@@ -691,8 +686,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js!./style.css", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js!./style.css");
+		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./style.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./style.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -710,7 +705,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n    font-size: 15px;\n}\n\n.header {\n    position: fixed;\n    left: 50%;\n    width: 100%;\n    transform: translate(-50%, 0);\n    background-size: cover;\n}\n\n#background {\n    z-index: -1000;\n    filter: brightness(50%);\n    width: 100%;\n}\n\n.clear-margin {\n    margin: 0;\n}\n\n.roboto {\n    font-family: Roboto, Helvetica;\n    font-weight: 100;\n}\n\n.white {\n    color: #eee;\n}\n\n.name {\n    font-size: 5rem;\n    position: absolute;\n}\n\n.first-name {\n    top: 6rem;\n    right: 50%;\n\n}\n\n.last-name {\n    top: 14.5rem;\n    left: 50%;\n}\n\n@media (max-width: 600px) {\n    .header {\n        width: auto;\n        height: 20rem;\n    }\n\n    #background {\n        width: auto;\n        height: 100%;\n    }\n}", ""]);
+exports.push([module.i, "body {\n  font-size: 15px; }\n\n.header {\n  position: fixed;\n  left: 50%;\n  width: 100%;\n  transform: translate(-50%, 0);\n  background-size: cover; }\n\n#background {\n  z-index: -1000;\n  filter: brightness(50%);\n  width: 100%; }\n\n.clear-margin {\n  margin: 0; }\n\n.roboto {\n  font-family: Geo Sans Light, Helvetica;\n  font-weight: 100; }\n\n.white {\n  color: #eee; }\n\n#navigation-bar {\n  position: absolute;\n  top: 2rem; }\n\n.name {\n  font-size: 5rem;\n  position: absolute;\n  top: 13rem;\n  left: 50%;\n  transform: translate(-50%, 0); }\n\n@media (max-width: 600px) {\n  .header {\n    width: auto;\n    height: 20rem; }\n  #background {\n    width: auto;\n    height: 100%; } }\n", ""]);
 
 // exports
 

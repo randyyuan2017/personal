@@ -1,3 +1,2 @@
 require('normalize.css');
-
-import '../css/style.css';
+require('../css/style.scss');
