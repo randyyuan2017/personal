@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.png' %}"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/semantic.min.css' %}">
+    <title>Randy Yuan</title>
+    <script src="{% static 'js/index.js' %}"></script>
+</head>
+<body>
+    <div class="ui inverted vertical center aligned segment">
+      <div class="ui container">
+        <div class="ui massive borderless inverted menu">
+          <h1 class="header item">
+              <img id="navbar-icon" src="{% static 'img/icon-white.png' %}" alt="">Randy Yuan
+          </h1>
+          <div class="right item">
+            <div class="ui massive secondary inverted pointing menu">
+                <a class="item" href="/">Home</a>
+                <a class="item">Projects</a>
+                <a class="item" target="_blank" href="{% static 'Randy Yuan.pdf' %}">Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
