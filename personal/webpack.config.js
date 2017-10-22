@@ -10,7 +10,7 @@ module.exports = () => {
     return {
         entry: {
             // libraries: [path.join(JS_DIR, 'jquery.js')],
-            index: path.join(JS_DIR, 'index.js'),
+            main: path.join(JS_DIR, 'main.js'),
         },
         output: {
             path: BUILD_DIR,
