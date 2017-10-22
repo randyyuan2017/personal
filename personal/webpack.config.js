@@ -11,6 +11,7 @@ module.exports = () => {
         entry: {
             // libraries: [path.join(JS_DIR, 'jquery.js')],
             main: path.join(JS_DIR, 'main.js'),
+            projects: path.join(JS_DIR, 'projects.js'),
         },
         output: {
             path: BUILD_DIR,
