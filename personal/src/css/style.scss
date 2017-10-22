@@ -8,6 +8,10 @@
   width: 15em;
 }
 
+h1.ui.header {
+  font-size: 3em;
+}
+
 .ui.inverted.vertical.segment {
 height: 100vh;
     h1.header.item {
@@ -24,9 +28,6 @@ height: 100vh;
     left: 0;
     right: 0;
     margin: 20em auto auto;
-        h1.header {
-        font-size: 3em;
-        }
         p {
         font-size: 1.6em;
         line-height: 1.6;
